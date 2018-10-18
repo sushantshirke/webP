@@ -1,0 +1,119 @@
+<div id ="Main_Container">
+
+<div class="container">
+    <div id="Top">
+        <div id="Logo">
+        </div>   
+        <div id="Quick_Contact">
+            <div id="Address">
+                	<p>Tel : 00971-6-/ 5303430/5300340<br>
+                        Fax:00971-6-5303544<br>
+                        bstway@eim.ae
+                    </p>                	
+                </div>
+        </div> 
+        <div id="Media_Icons">
+    <!-- <img src="resources/images/follow_us.jpg" alt="Best way Oilfields" width="98" height="15" class="follow">
+    <img src="resources/images/twitter.jpg" alt="Best Way Piping Materials" width="25" height="26">
+        <img src="resources/images/facebook.jpg" alt="UAE Gas Euipments" width="26" height="26">
+        <img src="resources/images/rss.jpg" alt="UAE piping materials" width="25" height="27">			 -->
+        </div>
+    </div>
+</div>
+
+<div id="Menu"> 
+        <ul>
+           <li><a routerLink="home" class="Current">HOME</a></li>
+           <li><a routerLink="aboutus">ABOUT US</a></li>
+           <li><a routerLink="products">PRODUCTS</a></li>
+           <li><a routerLink="enquiry">ENQUIRY FORM</a></li>
+           <li><a routerLink="contact" style="border:none;">CONTACT US</a></li>
+        </ul>
+  </div>
+
+  
+
+<!-- 
+   <div id="Flash">
+        <script type="text/javascript">
+            AC_FL_RunContent('codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0', 'width', '977', 'height', '279', 'src', 'resources/flash/Banner', 'quality', 'high', 'pluginspage', 'http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash', 'movie', 'resources/flash/Banner'); //end AC code
+           </script>
+           <embed width="977" height="279" src="resources/flash/Banner.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash"> <noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="977" height="279">
+                         <param name="movie" value="resources/flash/Banner.swf" />
+                         <param name="quality" value="high" />
+                         <embed src="/assets/images/Banner.swf" quality="high" 
+                         pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" 
+                         type="application/x-shockwave-flash" width="977" height="279">
+                        
+       </object></noscript>
+   </div> -->
+
+
+  
+
+<div id="Inner_Contetn">
+
+<div *ngIf="data.showIndex" id="Left_box_inner">
+        <div id="Product_head"></div>
+        <div id="Left_Menu">
+                <ul>
+                    <li><a href="Pipes.html">Pipes</a></li>
+                  <li><a href="Buttweld-Fittings.html">Buttweld Fittings</a></li>
+                      <li><a href="Forged-Fittings.html">Forged Fittings</a></li>
+                      <li><a href="Flanges.html">Flanges</a></li>
+                      <li><a href="valves.html">Valves</a></li>
+                      <li><a href="olets.html">O LETS</a></li>
+                      <li><a href="gaskets.html">Gaskets & Fasteners</a></li>
+                      <li><a href="bend.html">Bend</a></li>
+                </ul>
+              </div>
+    </div>
+
+
+   <div id="Content_Area" style="position: relative;">
+        <router-outlet></router-outlet>
+   </div>
+
+   <div *ngIf="data.showIndex" id="Right_Box">
+        <div id="Gallery_head"></div>
+      <div class="div_img"><a href="resources/images/about_1.jpg" rel="lightbox"></a><a href="resources/images/about_1.jpg" rel="lightbox"><img src="resources/images/about_1.jpg" alt="Gas Equipments UAE" width="152" height="81"></a></div>
+      <div class="div_img"><a href="resources/images/about_2.jpg" rel="lightbox"></a><a href="resources/images/about_2.jpg" rel="lightbox"><img src="resources/images/about_2.jpg" alt="Forged fittings UAE" width="152" height="81"></a></div>
+            
+      <div class="div_img"><a href="resources/images/about_3.jpg" rel="lightbox"><img src="resources/images/about_3.jpg" alt="Stocking Materials UAE" width="152" height="81"></a></div>
+      <div class="div_img"><a href="resources/images/about_4.jpg" rel="lightbox"><img src="resources/images/about_4.jpg" alt="Buttweld Fittings UAE" width="152" height="81"></a></div>
+      <div class="div_img"><a href="resources/images/about_5.jpg" rel="lightbox"><img src="resources/images/about_5.jpg" alt="Gaskets &amp; Fasteners UAE" width="152" height="81"></a></div>
+      <div class="div_img"><a href="resources/images/about_6.jpg" rel="lightbox"><img src="resources/images/about_6.jpg" alt="O LETS and Bends in UAE" width="152" height="81"></a></div> 
+      <div class="div_img"><a href="resources/images/about_7.jpg" rel="lightbox"><img src="resources/images/about_7.jpg" alt="Abhudhabi Water and Electricity" width="152" height="81"></a></div>  
+      
+        
+      </div>
+
+    </div>
+
+</div>
+
+    <div id="Footer" style="clear:both;">
+            <div id="Footer_div">
+       		  <div id="Footer_Menu">
+                	<ul>
+                      <li><a href="index.html">HOME</a></li>
+                       <li><a href="about_us.html">ABOUT US</a></li>
+                       <li><a href="products.html">PRODUCTS</a></li>
+                       <li><a href="enquiry.html">ENQUIRY FORM</a></li>
+                       <li><a href="contact_us.html" style="border:none;">CONTACT US</a></li>
+                </ul>
+       		  </div>
+                
+                
+                <div id="Footer_Right">
+					<p>Copyright @ 2011.Site Developed By Accudata Tech Solutions Pvt Ltd.
+<a href="http://accudata.co.in/" target="_blank">www.accudata.co.in</a></p>                
+                
+                
+                </div>
+        	</div>
+</div>
+
+
+
+
